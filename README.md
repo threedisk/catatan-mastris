@@ -8,6 +8,8 @@ Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendal
 
 ### Daftar isi
 * How to recover SQL Server SUSPECT Mode - Recovering a SQL Server 2000 Databases
+* Mengubah mode database menjadi Single User lewat GUI
+
 
 
 ### Isi
@@ -27,7 +29,7 @@ Langsung saja.
 EXEC sp_configure 'Allow updates','1'
 Reconfigure with override
 ```
-kemudian
+kemudian  
 ```
 UPDATE master.dbo.sysdatabases
 SET Status = -32768
@@ -64,3 +66,16 @@ Script tersebut biasanya agak beresiko karena akan ada data yang sengaja dihapus
 
 
 CMIIW
+
+**Mengubah mode database menjadi Single User lewat GUI**
+
+Salah satu langkah yang digunakan untuk membuat database menjadi Single User dari sistem recovery diatas adalah via command yang dijalankan dengan menggunakan Query Manager.  
+
+Ada cara lebih mudah lagi yakni menggunakan GUI yang tinggal klak klik dan mudah.
+
+Cara ini hanya bisa digunakan ketika database sudah terlihat di Properties. Kalau masih belum terlihat Properties pas klik kanan database , maka masih harus menggunakan command.
+
+1. Masuk ke aplikasi Enterprise Manager
+2. Klik kanan database pilih Properties, kemudian dibagian Access, lihat Restrict mode dan
+
+---BERLANJUT---
