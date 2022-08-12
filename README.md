@@ -14,7 +14,7 @@ Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendal
 
 
 ### Isi
-** Update flameshot via flathub (ubuntu desktop)
+**Update flameshot via flathub (ubuntu desktop)**
 ```
 sudo flatpak install flathub org.flameshot.Flameshot
 ```
