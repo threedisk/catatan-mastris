@@ -14,12 +14,12 @@ Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendal
 
 
 ### Isi
-**Update flameshot via flathub (ubuntu desktop)**
+#### Update flameshot via flathub (ubuntu desktop)
 ```
 sudo flatpak install flathub org.flameshot.Flameshot
 ```
 
-**How to recover SQL Server SUSPECT Mode - Recovering a SQL Server 2000 Databases**
+#### How to recover SQL Server SUSPECT Mode - Recovering a SQL Server 2000 Databases
 Bagaimana cara me-recover Database dari SQL Server 2000 yang masuk mode SUSPECT. ( kurang lebih begitu translate-nya CMIIW)  
 
 Beberapa waktu yang lalu, sedang ada kendala tentang aplikasi POS yang digunakan sedang terjadi gangguan dari segi database tidak bisa diakses. Berkali-kali mencari solusi di search engine dan baru ketemu solusi yang mantep banget dan akhirnya bisa running lagi SQL Server-nya.  
@@ -72,7 +72,7 @@ Script tersebut biasanya agak beresiko karena akan ada data yang sengaja dihapus
 
 CMIIW
 
-**Mengubah mode database menjadi Single User lewat GUI**
+#### Mengubah mode database menjadi Single User lewat GUI
 
 Salah satu langkah yang digunakan untuk membuat database menjadi Single User dari sistem recovery diatas adalah via command yang dijalankan dengan menggunakan Query Manager.  
 
