@@ -7,7 +7,7 @@ Mengapa repo ini dinamakan catatan. Yaitu gunanya untuk tempat mencatat hal-hal 
 Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendala-kendala yang muncul dilapangan, yang sekiranya nanti akan terlupa oleh saya sendiri
 
 ### Daftar isi
-* Update flameshot via flathub
+* [Update flameshot via flathub](#update-flameshot-via-flathub-ubuntu-desktop)
 * How to recover SQL Server SUSPECT Mode - Recovering a SQL Server 2000 Databases
 * Mengubah mode database menjadi Single User lewat GUI
 
