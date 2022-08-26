@@ -7,9 +7,11 @@ Mengapa repo ini dinamakan catatan. Yaitu gunanya untuk tempat mencatat hal-hal 
 Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendala-kendala yang muncul dilapangan, yang sekiranya nanti akan terlupa oleh saya sendiri
 
 ### Daftar isi
-* [Update flameshot via flathub](####update-flameshot-via-flathub-ubuntu-desktop)
+* Update flameshot via flathub
 * How to recover SQL Server SUSPECT Mode - Recovering a SQL Server 2000 Databases
 * Mengubah mode database menjadi Single User lewat GUI
+* Ada notifikasi kesalahan Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-q9jfc54i/psycopg2-binary/
+
 
 
 
@@ -84,3 +86,22 @@ Cara ini hanya bisa digunakan ketika database sudah terlihat di Properties. Kala
 2. Klik kanan database pilih Properties, kemudian dibagian Access, lihat Restrict mode dan
 
 ---BERLANJUT---
+
+#### Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-q9jfc54i/psycopg2-binary/
+How to fix the pip9.exceptions.InstallationError
+
+Make sure the version of your pip and setuptools is sufficient for manylinux2014 wheels.
+
+* For System Install
+```
+sudo python3 -m pip install -U pip
+sudo python3 -m pip install -U setuptools
+```
+* For Virtual Env / pipEnv
+```
+#Within the venv
+
+pip3 install -U pip
+pip3 install -U setuptools
+```
+source : [Stackoverflow](https://stackoverflow.com/questions/64095094/command-python-setup-py-egg-info-failed-with-error-code-1-in-tmp)
