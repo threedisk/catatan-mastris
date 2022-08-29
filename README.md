@@ -11,6 +11,7 @@ Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendal
 * How to recover SQL Server SUSPECT Mode - Recovering a SQL Server 2000 Databases
 * Mengubah mode database menjadi Single User lewat GUI
 * Ada notifikasi kesalahan Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-q9jfc54i/psycopg2-binary/
+* Instalasi driver printer Canon G3010 Series di Windows XP
 
 
 
@@ -105,3 +106,8 @@ pip3 install -U pip
 pip3 install -U setuptools
 ```
 source : [Stackoverflow](https://stackoverflow.com/questions/64095094/command-python-setup-py-egg-info-failed-with-error-code-1-in-tmp)
+
+#### Instalasi Driver Printer Canon G3010 Series di Windows XP
+Dikarenakan driver bawaan dari CD Driver printer G3010 tidak bisa diinstall dan digunakan dengan benar, maka akhirnya mencari ke situs [driverpack](driverpack.io). Akhirnya menemukan driver yang cocok digunakan dan berfungsi sebagaimana mestinya.  
+Dengan nama file dan link-nya: [PIXMA_G3410_v1.01-drp](https://dl.driverpack.io/driverpacks/repack/Printer_Canon_Inkjet/PIXMA_G3410_v1.01/PIXMA_G3410_v1.01-drp.zip)  
+Ini juga saya upload file di github juga sih.
