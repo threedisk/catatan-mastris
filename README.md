@@ -12,6 +12,7 @@ Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendal
 * Mengubah mode database menjadi Single User lewat GUI
 * Ada notifikasi kesalahan Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-q9jfc54i/psycopg2-binary/
 * Instalasi driver printer Canon G3010 Series di Windows XP
+* Resuming Windows saat sedang menyalakan komputer di Windows 7 32bit
 
 
 
@@ -111,3 +112,6 @@ source : [Stackoverflow](https://stackoverflow.com/questions/64095094/command-py
 Dikarenakan driver bawaan dari CD Driver printer G3010 tidak bisa diinstall dan digunakan dengan benar, maka akhirnya mencari ke situs [driverpack](driverpack.io). Akhirnya menemukan driver yang cocok digunakan dan berfungsi sebagaimana mestinya.  
 Dengan nama file dan link-nya: [PIXMA_G3410_v1.01-drp](https://dl.driverpack.io/driverpacks/repack/Printer_Canon_Inkjet/PIXMA_G3410_v1.01/PIXMA_G3410_v1.01-drp.zip)  
 Ini juga saya upload file di github juga sih.
+
+#### Resuming Windows saat menyalakan komputer dengan OS Windows 7 32bit
+Ternyata ada terkendala dengan keyboard yang menyebabkan komputer selalu dalam kondisi resuming windows terus. 
