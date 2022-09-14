@@ -13,6 +13,7 @@ Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendal
 * Ada notifikasi kesalahan Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-q9jfc54i/psycopg2-binary/
 * Instalasi driver printer Canon G3010 Series di Windows XP
 * Resuming Windows saat sedang menyalakan komputer di Windows 7 32bit
+* Menginstall python versi 3.8 di Ubuntu 18.04 LTS
 
 
 
@@ -115,3 +116,27 @@ Ini juga saya upload file di github juga sih.
 
 #### Resuming Windows saat menyalakan komputer dengan OS Windows 7 32bit
 Ternyata ada terkendala dengan keyboard yang menyebabkan komputer selalu dalam kondisi resuming windows terus. 
+
+#### Menginstall Python 3.8 di Ubuntu 18.04 LTS
+Cara menginstall python 3.8 di Ubuntu 18.04 LTS, sebelumnya saya kira di Ubuntu 18.04 LTS tidak akan bisa diinstall Python dengan versi diatas 3.6.x. Tapi setelah googling ternyata ada cara buat install Python 3.8 di Ubuntu 18.04 LTS
+
+1. Pastikan login root atau sudo user dan eksekusi perintah dibawah 
+```
+sudo apt update
+sudo apt install software-properties-common
+```
+2. Menambahkan deadsnake PPA ke source list 
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+```
+Jika ada pernyataan Enter untuk Continue, tekan Enter saja
+
+3. Sesudah repositori sudah enable, install Python 3.8 dengan perintah 
+```
+sudo apt install python3.8
+```
+4. Verifikasi bahwa instalasi Python 3.8 sudah berhasil dengan perintah, jika instalasi telah sukses maka akan keluar output Python 3.8.x
+```
+python3.8 --version
+```
+Itulah cara menginstall Python 3.8 di Ubuntu 18.04 LTS
