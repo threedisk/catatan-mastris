@@ -14,6 +14,7 @@ Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendal
 * Instalasi driver printer Canon G3010 Series di Windows XP
 * Resuming Windows saat sedang menyalakan komputer di Windows 7 32bit
 * Menginstall python versi 3.8 di Ubuntu 18.04 LTS
+* Menginstall NordVPN di VPS (Ubuntu 18.04 LTS Server)
 
 
 
@@ -160,3 +161,15 @@ pip3 --version
 ```
 
 Source : [Stackoverflow](https://stackoverflow.com/questions/61717006/pip-for-python-3-8)
+
+#### Menginstall NordVPN di VPS (Ubuntu 18.04 LTS Server)
+Cara menginstall NordVPN di VPS yang menggunakan Ubuntu 18.04 LTS.
+
+1. Download paket installer yang bisa didapat dihalaman download NordVPN
+[disini](https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn-release_1.0.0_all.deb)
+2. Setelah terdownload, install menggunakan perintah : sudo apt install (PATH dimana installer tadi disimpan).
+```
+sudo apt update
+sudo apt install ./nordvpn-release_1.0.0_all.deb
+```
+Setelah beberapa saat, maka instalasi ...
