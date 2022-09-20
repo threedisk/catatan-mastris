@@ -179,6 +179,7 @@ Setelah beberapa saat, tunggu hingga selesai.
 sudo apt install nordvpn
 ```
 Tunggu hingga proses tersebut selesai, hingga muncul tulisan **NordVPN for Linux successfully installed!**
+
 4. Untuk login ke akun NordVPN tersebut adalah menggunakan perintah `nordvpn login --legacy`
 Masukkan email dan password ke terminal tersebut dan tekan Enter.
 Beberapa saat akan jika sudah berhasil login akan muncul pernyataan **Welcome to NordVPN! You can now connect to VPN by using 'nordvpn connect'.**
@@ -194,7 +195,7 @@ Misal juga kita ingin menggunakan NordVPN tersebut untuk proses download torrent
 Jika ingin menggunakan metode Dedicated IP dari NordVPN ya tinggal `nordvpn c dedicated_ip`.  
 ![dedicatedip](./src/img/nordvpn-dedicaatedip.png)  
 Jika ingin menggunakan metode lain, coba ketik menggunakan perintah `nordvpn groups`, perintah itu akan me-list groups apa saja yang bisa digunakan.  
-![groups](./src/img/nordvpn-groups.png)
+![groups](./src/img/nordvpn-groups.png)  
 Yang paling pentin kalau tidak tahu perintah apa yang digunakan tinggal ketik `nordvpn help`.
 
 Cukup sekian cara untuk instalasi NordVPN di Linux Ubuntu 18.04 LTS Server. Cara diatas juga bisa digunakan untuk Linux Ubuntu 18.04 yang versi desktop.
