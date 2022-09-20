@@ -187,11 +187,14 @@ NB: Sebenernya untuk Linux desktop hanya perlu menggunakan perintah `nordvpn log
 
 5. Untuk konek ke VPN yang diinginkan tinggal menggunakan perintah `nordvpn connect` aplikasi NordVPN akan secara otomatis memilihkan server yang terdekat dengan lokasi saat ini.  
 Tapi misal kita ingin memilih lokasi yang diinginkan untuk terkoneksi dengan NordVPN, kita tinggal memasukkan negara atau protokol yang ingin dituju. Misal jika ingin konek menggunakan IP United Kingdom, kita tinggal memasukkan perintah `nordvpn connect uk` atau `nordvpn c uk` (perintah c bisa sebagai shortcut untuk perintah connect).  
-![uk](./src/img/nordvpn-uk.png)
+![uk](./src/img/nordvpn-uk.png)  
 Untuk _disconnect_ tinggal menggunakan perintah `nordvpn disconnect` atau `nordvpn d`.
 Misal juga kita ingin menggunakan NordVPN tersebut untuk proses download torrent, ada baiknya menggunakan protokol P2P yang telah disediakan NordVPN, perintahnya cukup menggunakan `nordvpn c p2p`.  
-![p2p](./src/img/nordvpn-p2p.png)
+![p2p](./src/img/nordvpn-p2p.png)  
 Jika ingin menggunakan metode Dedicated IP dari NordVPN ya tinggal `nordvpn c dedicated_ip`.  
-![dedicatedip](./src/img/nordvpn-dedicaatedip.png)
+![dedicatedip](./src/img/nordvpn-dedicaatedip.png)  
 Jika ingin menggunakan metode lain, coba ketik menggunakan perintah `nordvpn groups`, perintah itu akan me-list groups apa saja yang bisa digunakan.  
 ![groups](./src/img/nordvpn-groups.png)
+Yang paling pentin kalau tidak tahu perintah apa yang digunakan tinggal ketik `nordvpn help`.
+
+Cukup sekian cara untuk instalasi NordVPN di Linux Ubuntu 18.04 LTS Server. Cara diatas juga bisa digunakan untuk Linux Ubuntu 18.04 yang versi desktop.
