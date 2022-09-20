@@ -199,3 +199,29 @@ Jika ingin menggunakan metode lain, coba ketik menggunakan perintah `nordvpn gro
 Yang paling pentin kalau tidak tahu perintah apa yang digunakan tinggal ketik `nordvpn help`.
 
 Cukup sekian cara untuk instalasi NordVPN di Linux Ubuntu 18.04 LTS Server. Cara diatas juga bisa digunakan untuk Linux Ubuntu 18.04 yang versi desktop.
+
+**CARA TERMUDAH dari situs resmi NordVPN**
+```
+1. Click the big blue Download button up above and download the installer (nordvpn-release_1.0.0_all.deb).
+
+2. Open Terminal and run the following command:
+sudo dpkg -i /pathToFile/nordvpn-release_1.0.0_all.deb
+
+3. Replace /pathToFile/ with the location of the downloaded NordVPN installer (for example, if it’s in the Downloads folder, the command goes:
+sudo dpkg -i ~/Downloads/nordvpn-release_1.0.0_all.deb)
+
+4. Enter your root password and wait for the installation to finish.
+
+5. Update the package list:
+sudo apt update (or sudo apt-get update)
+sudo apt upgrade (or sudo apt-get upgrade)
+
+6. Install the NordVPN app:
+sudo apt install nordvpn (or sudo apt-get install nordvpn)
+
+7. Log in to your NordVPN account:
+nordvpn login
+
+8. Connect to a NordVPN server:
+nordvpn connect
+```
