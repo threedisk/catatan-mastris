@@ -15,6 +15,7 @@ Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendal
 * Resuming Windows saat sedang menyalakan komputer di Windows 7 32bit
 * Menginstall python versi 3.8 di Ubuntu 18.04 LTS
 * Menginstall NordVPN di VPS (Ubuntu 18.04 LTS Server)
+* Menghapus sebuah PPA Repository dari sources.list
 
 
 
@@ -225,3 +226,12 @@ nordvpn login
 8. Connect to a NordVPN server:
 nordvpn connect
 ```
+
+#### Menghapus sebuah PPA Repository dari sources.list
+
+1. Masuk ke direktori `/etc/apt/sources.list.d/`, misal yang mau dihapus adalah `ondrej-ubuntu-php-jammy`
+```shell
+cd /etc/apt/sources.list.d
+sudo rm ondrej-ubuntu-php-jammy
+```
+2. Coba update package lagi dengan `sudo apt update / apt update`
