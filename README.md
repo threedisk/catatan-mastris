@@ -16,6 +16,7 @@ Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendal
 * Menginstall python versi 3.8 di Ubuntu 18.04 LTS
 * Menginstall NordVPN di VPS (Ubuntu 18.04 LTS Server)
 * Menghapus sebuah PPA Repository dari sources.list
+* Melakukan perintah berulang menggunakan for loops di bash shell
 
 
 
@@ -235,3 +236,23 @@ cd /etc/apt/sources.list.d
 sudo rm ondrej-ubuntu-php-jammy
 ```
 2. Coba update package lagi dengan `sudo apt update / apt update`
+
+#### Melakukan perintah berulang menggunakan for loops di bash shell
+Studi kasus pengen me-compress zip semua file dalam satu folder yang berisi banyak file txt dengan syarat 1 file txt menjadi sebuah file zip sendiri-sendiri. Misal ada 100 file txt maka harus menjadi 100 file zip.  
+Ada 2 cara:
+
+1. Buat sebuah file script berekstensi .sh, misal _forloops.sh_ kemudian jalankan dengan perintah `bash forloops.sh`
+    ```shell
+    #!/usr/bin/bash
+    for i in *.txt
+    do
+    7z a $i.7z $i
+    done
+    ```
+    Script diatas akan melakukan proses loop perintah membuat sebuah file zip dari file txt yang berada difolder tersebut.  
+2. Jika ingin menggunakan one-line command ya tinggal ketikkan seperti dibawah ini:
+        ```shell
+        for i in *.txt;do 7z a $i.7z $i;done
+        ```
+        Hasilnya akan sama saja.
+    
