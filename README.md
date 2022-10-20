@@ -8,20 +8,26 @@ Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendal
 
 ### Daftar isi
 * Update flameshot via flathub
+* Instalasi driver printer Canon G3010 Series di Windows XP
+* Resuming Windows saat sedang menyalakan komputer di Windows 7 32bit
+* Menghapus sebuah PPA Repository dari sources.list
+* Melakukan perintah berulang menggunakan for loops di bash shell
 * [How to recover SQL Server SUSPECT Mode - Recovering a SQL Server 2000 Databases](./sql-server-suspect-mode.md)
 * [Mengubah mode database menjadi Single User lewat GUI](./sql-server-2000-single-user-gui.md)
 * [Ada notifikasi kesalahan Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-q9jfc54i/psycopg2-binary/](./python-setup-egg-info.md)
-* Instalasi driver printer Canon G3010 Series di Windows XP
-* Resuming Windows saat sedang menyalakan komputer di Windows 7 32bit
 * [Menginstall python versi 3.8 di Ubuntu 18.04 LTS + install pip](./python-3.8-ubuntu-bionic.md)
 * [Menginstall NordVPN di VPS (Ubuntu 18.04 LTS Server)](./nordvpn-vps-ubuntu-bionic.md)
-* Menghapus sebuah PPA Repository dari sources.list
-* Melakukan perintah berulang menggunakan for loops di bash shell
 * [Instalasi Multipass di Linux Mint](./multipass-linux-mint.md)
 
 ### Isi
-#### Update flameshot via flathub (ubuntu desktop)
+#### Install Landscape Sysinfo
+Ingin melihat status dari komputer yang sedang digunakan? Gunakan perintah `landscape-sysinfo`, jika masih belum terinstall bisa gunakan perintah seperti dibawah ini
+```shell
+sudo apt install landscape-common
 ```
+![landscape-sysinfo](./src/img/landscape-sysinfo.png)
+#### Update flameshot via flathub (ubuntu desktop)
+```shell
 sudo flatpak install flathub org.flameshot.Flameshot
 ```
 #### Instalasi Driver Printer Canon G3010 Series di Windows XP
