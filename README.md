@@ -64,5 +64,5 @@ Ada 2 cara:
         ```shell
         for i in *.txt;do 7z a $i.7z $i;done
         ```
-        Hasilnya akan sama saja.
+        Hasilnya akan sama saja dengan perintah diatas.
 
