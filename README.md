@@ -18,6 +18,7 @@ Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendal
 * [Menginstall python versi 3.8 di Ubuntu 18.04 LTS + install pip](./python-3.8-ubuntu-bionic.md)
 * [Menginstall NordVPN di VPS (Ubuntu 18.04 LTS Server)](./nordvpn-vps-ubuntu-bionic.md)
 * [Instalasi Multipass di Linux Mint](./multipass-linux-mint.md)
+* [Bookmark Website](./bookmark-website.md)
 
 ### Isi
 #### Install Landscape Sysinfo
