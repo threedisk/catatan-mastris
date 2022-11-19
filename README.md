@@ -7,6 +7,7 @@ Mengapa repo ini dinamakan catatan. Yaitu gunanya untuk tempat mencatat hal-hal 
 Catatan ini akan berisi hal-hal termasuk cara troubleshoting problem dari kendala-kendala yang muncul dilapangan, yang sekiranya nanti akan terlupa oleh saya sendiri
 
 ### Daftar isi
+* Install Landscape Sysinfo
 * Update flameshot via flathub
 * Instalasi driver printer Canon G3010 Series di Windows XP
 * Resuming Windows saat sedang menyalakan komputer di Windows 7 32bit
@@ -27,6 +28,7 @@ Ingin melihat status dari komputer yang sedang digunakan? Gunakan perintah `land
 sudo apt install landscape-common
 ```
 ![landscape-sysinfo](./src/img/landscape-sysinfo.png)
+
 #### Update flameshot via flathub (ubuntu desktop)
 ```shell
 sudo flatpak install flathub org.flameshot.Flameshot
@@ -67,3 +69,7 @@ Ada 2 cara:
         ```
         Hasilnya akan sama saja dengan perintah diatas.
 
+#### Jika Linux Mint mengalami Freeze
+1. Ctrl + Alt + Esc, untuk merestart Cinnamon dan Nemo, jika tidak berhasil gunakan cara selanjutnya
+2. Ctrl + Alt + F1, login sebagai root dan masukkan perintah `service mdm restart` , proses tersebut akan menghentikan user session. Tekan `Ctrl + D` dan setelah itu tekan `Ctrl + Alt + F7`. Dan akan kembali ke login screen. Dan open session tanpa harus reboot. JIka masih tidak bisa gunakan cara terakhir
+3. Tekan lama Alt dan PrintScreen + r + e + i + s + u + b, komputer akan secara otomatis shutdown 
